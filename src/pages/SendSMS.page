@@ -1,0 +1,68 @@
+<apex:page standardController="SMS__c" extensions="SendSMS" standardStylesheets="false" sidebar="false" showHeader="false">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/external/jquery/jquery.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.css"></link>
+    
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"></link>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"/>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"></link>
+
+
+
+<style type="text/css">
+    
+    body{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    text-align:center;
+        margin-right: 120px;
+    margin-left: 120px;
+
+    
+    }
+        
+    
+</style>
+
+
+
+
+<apex:form >
+    
+    <div>
+        <div class="container-fluid">
+            
+            <div align="center" style="color:#f44336;"><h3>Chat Messages (s)</h3></div>
+            
+        </div>
+        <br/>
+    </div>
+    
+    
+    <div class="form-group">
+        <label>From Number</label><br />
+        <apex:inputText value="{!smsRec.From_Number__c}" html-placeholder="From Number" styleClass="form-control" disabled="true" />
+    </div>
+    <div class="form-group">
+        <label>To Number</label><br />
+        <apex:inputText value="{!smsRec.To_Number__c}" html-placeholder="To Number" styleClass="form-control"/>
+    </div>
+    <div class="form-group">
+        <label>SMS Message</label><br />
+        <apex:inputText value="{!smsRec.Message__c}" html-placeholder="Message" styleClass="form-control" style="height:130px"/>
+    </div>
+    
+    <div >
+        <button type="button" style="background:white;  border: 2px solid transparent;text-align:center;border-radius:5px;color:#EF5350; text-align:center; font-family:Candara, Calibri, Segoe, Segoe UI, Optima, Arial,sans-serif;font-size: 14px;font-variant: normal;font-weight: bold;border: 2px solid #f44336;" data-dismiss="modal">Close</button>                                                
+        <apex:commandButton value="Send SMS" action="{!sendSMS}" reRender="contactTable"  style="background:white;  border: 2px solid transparent;text-align:center;border-radius:5px;color:#EF5350; text-align:center; font-family:Candara, Calibri, Segoe, Segoe UI, Optima, Arial,sans-serif;font-size: 14px;font-variant: normal;font-weight: bold;border: 2px solid #f44336;"/>
+        
+    </div>
+    
+    
+</apex:form> 
+
+</apex:page>

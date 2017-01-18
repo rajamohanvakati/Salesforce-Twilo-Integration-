@@ -1,0 +1,72 @@
+{
+    "SendSMS.page": {
+        "createdById": "005Z0000001yPG4IAM",
+        "createdByName": "Rajamohan Vakati",
+        "createdDate": "2016-08-04T16:15:20.000Z",
+        "fileName": "unpackaged/pages/SendSMS.page",
+        "fullName": "SendSMS",
+        "id": "066Z00000006WmNIAU",
+        "lastModifiedById": "005Z0000001yPG4IAM",
+        "lastModifiedByName": "Rajamohan Vakati",
+        "lastModifiedDate": "2017-01-02T20:56:24.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexPage",
+        "mmState": "clean"
+    },
+    "SMS__c.object": {
+        "createdById": "005Z0000001yPG4IAM",
+        "createdByName": "Rajamohan Vakati",
+        "createdDate": "2016-08-04T15:33:51.000Z",
+        "fileName": "unpackaged/objects/SMS__c.object",
+        "fullName": "SMS__c",
+        "id": "01IZ00000007jsYMAQ",
+        "lastModifiedById": "005Z0000001yPG4IAM",
+        "lastModifiedByName": "Rajamohan Vakati",
+        "lastModifiedDate": "2017-01-02T21:03:45.000Z",
+        "manageableState": "unmanaged",
+        "type": "CustomObject",
+        "mmState": "clean"
+    },
+    "SMS_Reply__c.object": {
+        "createdById": "005Z0000001yPG4IAM",
+        "createdByName": "Rajamohan Vakati",
+        "createdDate": "2016-08-04T15:42:32.000Z",
+        "fileName": "unpackaged/objects/SMS_Reply__c.object",
+        "fullName": "SMS_Reply__c",
+        "id": "01IZ00000007jsiMAA",
+        "lastModifiedById": "005Z0000001yPG4IAM",
+        "lastModifiedByName": "Rajamohan Vakati",
+        "lastModifiedDate": "2016-08-05T19:57:51.000Z",
+        "manageableState": "unmanaged",
+        "type": "CustomObject",
+        "mmState": "clean"
+    },
+    "SendSMS.cls": {
+        "createdById": "005Z0000001yPG4IAM",
+        "createdByName": "Rajamohan Vakati",
+        "createdDate": "2016-08-04T16:13:20.000Z",
+        "fileName": "unpackaged/classes/SendSMS.cls",
+        "fullName": "SendSMS",
+        "id": "01pZ0000000IdeaIAC",
+        "lastModifiedById": "005Z0000001yPG4IAM",
+        "lastModifiedByName": "Rajamohan Vakati",
+        "lastModifiedDate": "2017-01-12T21:35:51.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "TwillioIncomingMessages.cls": {
+        "createdById": "005Z0000001yPG4IAM",
+        "createdByName": "Rajamohan Vakati",
+        "createdDate": "2016-08-08T16:32:04.000Z",
+        "fileName": "unpackaged/classes/TwillioIncomingMessages.cls",
+        "fullName": "TwillioIncomingMessages",
+        "id": "01pZ0000000IdgWIAS",
+        "lastModifiedById": "005Z0000001yPG4IAM",
+        "lastModifiedByName": "Rajamohan Vakati",
+        "lastModifiedDate": "2017-01-02T21:32:36.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    }
+}
